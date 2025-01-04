@@ -1,0 +1,39 @@
+@if (Pmodel) {
+<div class="modal" tabindex="-1" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">New Phone</h5>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="brand" class="form-label">Brand</label>
+            <input type="text" class="form-control" id="brand" [value]="Pmodel.brand" (change)="Pmodel.brand = getValue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="model" class="form-label">Model</label>
+            <input type="text" class="form-control" id="model" [value]="Pmodel.model" (change)="Pmodel.model = getValue($event)">
+              </div>
+          <div class="mb-3">
+            <label for="storage" class="form-label">Storage</label>
+            <input type="text" class="form-control" id="storage" [value]="Pmodel.storage" (change)="Pmodel.storage = getValue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="ram" class="form-label">RAM</label>
+            <input type="text" class="form-control" id="ram" [value]="Pmodel.ram" (change)="Pmodel.ram = getValue($event)">
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="text" class="form-control" id="price"  [value]="Pmodel.price" (change)="Pmodel.price = getNumberValue($event)">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="Pmodel = undefined">Cancel</button>
+        <button type="button" class="btn btn-success" (click)="save()">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+}

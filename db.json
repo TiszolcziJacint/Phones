@@ -1,0 +1,76 @@
+{
+  "phones": [
+    {
+      "id": "2",
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "storage": "256GB",
+      "ram": "8GB",
+      "price": 999
+    },
+    {
+      "id": "3",
+      "brand": "Google",
+      "model": "Pixel 7",
+      "storage": "128GB",
+      "ram": "8GB",
+      "price": 599
+    },
+    {
+      "id": "4",
+      "brand": "OnePlus",
+      "model": "OnePlus 11",
+      "storage": "256GB",
+      "ram": "16GB",
+      "price": 699
+    },
+    {
+      "id": "5",
+      "brand": "Xiaomi",
+      "model": "Mi 13",
+      "storage": "512GB",
+      "ram": "12GB",
+      "price": 749
+    },
+    {
+      "id": "6",
+      "brand": "Sony",
+      "model": "Xperia 1 V",
+      "storage": "256GB",
+      "ram": "12GB",
+      "price": 1199
+    },
+    {
+      "id": "7",
+      "brand": "Asus",
+      "model": "ROG Phone 7",
+      "storage": "128GB",
+      "ram": "16GB",
+      "price": 1399
+    },
+    {
+      "id": "8",
+      "brand": "Motorola",
+      "model": "Edge 40",
+      "storage": "128GB",
+      "ram": "8GB",
+      "price": 499
+    },
+    {
+      "id": "9",
+      "brand": "Realme",
+      "model": "GT Neo 5",
+      "storage": "256GB",
+      "ram": "16GB",
+      "price": 479
+    },
+    {
+      "id": "aaf2",
+      "brand": "Apple",
+      "model": "Iphone 30",
+      "storage": "2TB",
+      "ram": "5GB",
+      "price": 1000
+    }
+  ]
+}
