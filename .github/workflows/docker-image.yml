@@ -21,7 +21,7 @@ jobs:
     - name: Build the Docker image
       run: |
         echo "IMAGE_TAG=$(date +%s)" >> $GITHUB_ENV
-        docker build . --file Dockerfile --tag ghcr.io/tiszolczijacint/Phones:$IMAGE_TAG --tag ghcr.io/tiszolczijacint/Phones:latest
+        docker build . --file Dockerfile --tag ghcr.io/tiszolczijacint/phones:$IMAGE_TAG --tag ghcr.io/tiszolczijacint/phones:latest
         docker login ghcr.io -u tiszolczijacint -p ${{secrets.GHCR_TOKEN}}
-        docker push ghcr.io/tiszolczijacint/Phones:$IMAGE_TAG
-        docker push ghcr.io/tiszolczijacint/Phones:latest
+        docker push ghcr.io/tiszolczijacint/phones:$IMAGE_TAG
+        docker push ghcr.io/tiszolczijacint/phones:latest
